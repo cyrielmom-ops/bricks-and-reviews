@@ -497,6 +497,9 @@ article.content p { color: var(--text); }
 /* Footer */
 .footer-bol-banner {
   margin-bottom: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 .footer-bol-banner .btn {
