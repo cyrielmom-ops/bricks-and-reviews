@@ -7,6 +7,12 @@
 <meta name="description" content="Overzicht van LEGO-sets die ik zelf gebouwd heb: stukjes, prijs en waar je ze het voordeligst koopt.">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="css/style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BrickPassie — mijn LEGO-collectie op een rij">
+<meta property="og:description" content="Overzicht van LEGO-sets die ik zelf gebouwd heb: stukjes, prijs en waar je ze het voordeligst koopt.">
+<meta property="og:image" content="https://cyrielmom-ops.github.io/bricks-and-reviews/images/logo-icon.svg">
+<meta property="og:url" content="https://cyrielmom-ops.github.io/bricks-and-reviews/index.html">
+<meta name="twitter:card" content="summary">
 <script>
 function handleImgError(img) {
   if (!img.dataset.triedPng) {
@@ -56,20 +62,21 @@ function handleImgError(img) {
     <p class="section-lead">Elke set op deze pagina heb ik zelf gebouwd, nieuwste aankoop eerst.</p>
 
     <div class="filter-bar">
+      <input type="search" id="set-search" placeholder="Zoek op naam of setnummer...">
       <label for="theme-filter">Filter op type set:</label>
       <select id="theme-filter">
-        <option value="alle">Alle types</option>
-        <option value="Shell">Shell</option>
-        <option value="Minecraft">Minecraft</option>
-        <option value="Friends">Friends</option>
-        <option value="Botanicals">Botanicals</option>
-        <option value="Creator">Creator</option>
-        <option value="Disney">Disney</option>
-        <option value="Harry Potter">Harry Potter</option>
-        <option value="Speed Champions">Speed Champions</option>
-        <option value="Super Mario">Super Mario</option>
-        <option value="Technic">Technic</option>
-        <option value="Icons">Icons</option>
+        <option value="alle">Alle types (64)</option>
+        <option value="Shell">Shell (10)</option>
+        <option value="Minecraft">Minecraft (1)</option>
+        <option value="Friends">Friends (29)</option>
+        <option value="Botanicals">Botanicals (8)</option>
+        <option value="Creator">Creator (2)</option>
+        <option value="Disney">Disney (2)</option>
+        <option value="Harry Potter">Harry Potter (2)</option>
+        <option value="Speed Champions">Speed Champions (5)</option>
+        <option value="Super Mario">Super Mario (1)</option>
+        <option value="Technic">Technic (3)</option>
+        <option value="Icons">Icons (1)</option>
       </select>
     </div>
 
@@ -77,7 +84,7 @@ function handleImgError(img) {
 
       <article class="card" data-theme="Technic">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#2b2b2b 0%,#f5a623 100%)" data-fallback-text="42235">
-          <img src="images/42235.jpg" alt="LEGO Technic Ferrari 488 Pista auto (42235)" onerror="handleImgError(this)">
+          <img src="images/42235.jpg" alt="LEGO Technic Ferrari 488 Pista auto (42235)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-488-pista-auto-42235.html">Ferrari 488 Pista auto (42235)</a></h3>
@@ -94,7 +101,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Icons">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#8b0000 0%,#c98a3d 100%)" data-fallback-text="11376">
-          <img src="images/11376.jpg" alt="LEGO Icons Ford Model T (11376)" onerror="handleImgError(this)">
+          <img src="images/11376.jpg" alt="LEGO Icons Ford Model T (11376)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ford-model-t-11376.html">Ford Model T (11376)</a></h3>
@@ -111,7 +118,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Technic">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#2b2b2b 0%,#f5a623 100%)" data-fallback-text="42154">
-          <img src="images/42154.jpg" alt="LEGO Technic 2022 Ford GT (42154)" onerror="handleImgError(this)">
+          <img src="images/42154.jpg" alt="LEGO Technic 2022 Ford GT (42154)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/2022-ford-gt-42154.html">2022 Ford GT (42154)</a></h3>
@@ -128,7 +135,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Technic">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#2b2b2b 0%,#f5a623 100%)" data-fallback-text="42206">
-          <img src="images/42206.jpg" alt="LEGO Technic Oracle Red Bull Racing RB20 F1 auto (42206)" onerror="handleImgError(this)">
+          <img src="images/42206.jpg" alt="LEGO Technic Oracle Red Bull Racing RB20 F1 auto (42206)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/oracle-red-bull-racing-rb20-f1-auto-42206.html">Oracle Red Bull Racing RB20 F1 auto (42206)</a></h3>
@@ -145,7 +152,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Speed Champions">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#1a1a1a 0%,#e10600 100%)" data-fallback-text="77243">
-          <img src="images/77243.jpg" alt="LEGO Speed Champions Oracle Red Bull Racing RB20 F1 racewagen (77243)" onerror="handleImgError(this)">
+          <img src="images/77243.jpg" alt="LEGO Speed Champions Oracle Red Bull Racing RB20 F1 racewagen (77243)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/oracle-red-bull-racing-rb20-f1-racewagen-77243.html">Oracle Red Bull Racing RB20 F1 racewagen (77243)</a></h3>
@@ -162,7 +169,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Speed Champions">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#1a1a1a 0%,#e10600 100%)" data-fallback-text="77256">
-          <img src="images/77256.jpg" alt="LEGO Speed Champions Tijdmachine uit Back to the Future (77256)" onerror="handleImgError(this)">
+          <img src="images/77256.jpg" alt="LEGO Speed Champions Tijdmachine uit Back to the Future (77256)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/tijdmachine-uit-back-to-the-future-77256.html">Tijdmachine uit Back to the Future (77256)</a></h3>
@@ -179,7 +186,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Speed Champions">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#1a1a1a 0%,#e10600 100%)" data-fallback-text="77255">
-          <img src="images/77255.jpg" alt="LEGO Speed Champions Bliksem McQueen (77255)" onerror="handleImgError(this)">
+          <img src="images/77255.jpg" alt="LEGO Speed Champions Bliksem McQueen (77255)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/bliksem-mcqueen-77255.html">Bliksem McQueen (77255)</a></h3>
@@ -196,7 +203,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Speed Champions">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#1a1a1a 0%,#e10600 100%)" data-fallback-text="77261">
-          <img src="images/77261.jpg" alt="LEGO Speed Champions Ferrari 499P (77261)" onerror="handleImgError(this)">
+          <img src="images/77261.jpg" alt="LEGO Speed Champions Ferrari 499P (77261)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-499p-77261.html">Ferrari 499P (77261)</a></h3>
@@ -213,7 +220,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Super Mario">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#e52521 0%,#049cd8 100%)" data-fallback-text="72046">
-          <img src="images/72046.jpg" alt="LEGO Super Mario Game Boy (72046)" onerror="handleImgError(this)">
+          <img src="images/72046.jpg" alt="LEGO Super Mario Game Boy (72046)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/game-boy-72046.html">Game Boy (72046)</a></h3>
@@ -230,7 +237,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Speed Champions">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#1a1a1a 0%,#e10600 100%)" data-fallback-text="71049">
-          <img src="images/71049.jpg" alt="LEGO Speed Champions F1 raceauto's (verrassingsdoos) (71049)" onerror="handleImgError(this)">
+          <img src="images/71049.jpg" alt="LEGO Speed Champions F1 raceauto's (verrassingsdoos) (71049)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/f1-raceautos-verrassingsdoos-71049.html">F1 raceauto's (verrassingsdoos) (71049)</a></h3>
@@ -247,7 +254,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Harry Potter">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#740001 0%,#d3a625 100%)" data-fallback-text="76449">
-          <img src="images/76449.jpg" alt="LEGO Harry Potter Het Monsterlijke Monsterboek (76449)" onerror="handleImgError(this)">
+          <img src="images/76449.jpg" alt="LEGO Harry Potter Het Monsterlijke Monsterboek (76449)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/het-monsterlijke-monsterboek-76449.html">Het Monsterlijke Monsterboek (76449)</a></h3>
@@ -264,7 +271,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Harry Potter">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#740001 0%,#d3a625 100%)" data-fallback-text="76470">
-          <img src="images/76470.jpg" alt="LEGO Harry Potter Betoverde vliegende Ford Anglia (76470)" onerror="handleImgError(this)">
+          <img src="images/76470.jpg" alt="LEGO Harry Potter Betoverde vliegende Ford Anglia (76470)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/betoverde-vliegende-ford-anglia-76470.html">Betoverde vliegende Ford Anglia (76470)</a></h3>
@@ -281,7 +288,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Disney">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#7b2ff7 0%,#f7b2d9 100%)" data-fallback-text="40774">
-          <img src="images/40774.jpg" alt="LEGO Disney Klassieke animatiescènes (40774)" onerror="handleImgError(this)">
+          <img src="images/40774.jpg" alt="LEGO Disney Klassieke animatiescènes (40774)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/klassieke-animatiesc-nes-40774.html">Klassieke animatiescènes (40774)</a></h3>
@@ -298,7 +305,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Disney">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#7b2ff7 0%,#f7b2d9 100%)" data-fallback-text="43243">
-          <img src="images/43243.jpg" alt="LEGO Disney Simba de Leeuwenkoning als welp (43243)" onerror="handleImgError(this)">
+          <img src="images/43243.jpg" alt="LEGO Disney Simba de Leeuwenkoning als welp (43243)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/simba-de-leeuwenkoning-als-welp-43243.html">Simba de Leeuwenkoning als welp (43243)</a></h3>
@@ -315,7 +322,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Creator">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#2193b0 0%,#6dd5ed 100%)" data-fallback-text="31010">
-          <img src="images/31010.jpg" alt="LEGO Creator Boomhuis (31010)" onerror="handleImgError(this)">
+          <img src="images/31010.jpg" alt="LEGO Creator Boomhuis (31010)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/boomhuis-31010.html">Boomhuis (31010)</a></h3>
@@ -332,7 +339,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Creator">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#2193b0 0%,#6dd5ed 100%)" data-fallback-text="40086">
-          <img src="images/40086.jpg" alt="LEGO Creator Paashaas met wortel (40086)" onerror="handleImgError(this)">
+          <img src="images/40086.jpg" alt="LEGO Creator Paashaas met wortel (40086)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/paashaas-met-wortel-40086.html">Paashaas met wortel (40086)</a></h3>
@@ -349,7 +356,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10311">
-          <img src="images/10311.jpg" alt="LEGO Botanicals Orchidee (10311)" onerror="handleImgError(this)">
+          <img src="images/10311.jpg" alt="LEGO Botanicals Orchidee (10311)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/orchidee-10311.html">Orchidee (10311)</a></h3>
@@ -366,7 +373,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10281">
-          <img src="images/10281.jpg" alt="LEGO Botanicals Bonsaiboompje (10281)" onerror="handleImgError(this)">
+          <img src="images/10281.jpg" alt="LEGO Botanicals Bonsaiboompje (10281)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/bonsaiboompje-10281.html">Bonsaiboompje (10281)</a></h3>
@@ -383,7 +390,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="11509">
-          <img src="images/11509.jpg" alt="LEGO Botanicals Bloeiende cactus (11509)" onerror="handleImgError(this)">
+          <img src="images/11509.jpg" alt="LEGO Botanicals Bloeiende cactus (11509)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/bloeiende-cactus-11509.html">Bloeiende cactus (11509)</a></h3>
@@ -400,7 +407,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10369">
-          <img src="images/10369.jpg" alt="LEGO Botanicals Japanse abrikoos (10369)" onerror="handleImgError(this)">
+          <img src="images/10369.jpg" alt="LEGO Botanicals Japanse abrikoos (10369)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/japanse-abrikoos-10369.html">Japanse abrikoos (10369)</a></h3>
@@ -417,7 +424,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10343">
-          <img src="images/10343.jpg" alt="LEGO Botanicals Miniorchidee (10343)" onerror="handleImgError(this)">
+          <img src="images/10343.jpg" alt="LEGO Botanicals Miniorchidee (10343)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/miniorchidee-10343.html">Miniorchidee (10343)</a></h3>
@@ -434,7 +441,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10347">
-          <img src="images/10347.jpg" alt="LEGO Botanicals Klein zomers boeket (10347)" onerror="handleImgError(this)">
+          <img src="images/10347.jpg" alt="LEGO Botanicals Klein zomers boeket (10347)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/klein-zomers-boeket-10347.html">Klein zomers boeket (10347)</a></h3>
@@ -451,7 +458,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10314">
-          <img src="images/10314.jpg" alt="LEGO Botanicals Bloemstuk met gedroogde bloemen (10314)" onerror="handleImgError(this)">
+          <img src="images/10314.jpg" alt="LEGO Botanicals Bloemstuk met gedroogde bloemen (10314)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/bloemstuk-met-gedroogde-bloemen-10314.html">Bloemstuk met gedroogde bloemen (10314)</a></h3>
@@ -468,7 +475,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Botanicals">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10329">
-          <img src="images/10329.jpg" alt="LEGO Botanicals Miniplantjes (10329)" onerror="handleImgError(this)">
+          <img src="images/10329.jpg" alt="LEGO Botanicals Miniplantjes (10329)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/miniplantjes-10329.html">Miniplantjes (10329)</a></h3>
@@ -485,7 +492,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41039">
-          <img src="images/41039.jpg" alt="LEGO Friends Sunshine Ranch (41039)" onerror="handleImgError(this)">
+          <img src="images/41039.jpg" alt="LEGO Friends Sunshine Ranch (41039)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/sunshine-ranch-41039.html">Sunshine Ranch (41039)</a></h3>
@@ -502,7 +509,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41056">
-          <img src="images/41056.jpg" alt="LEGO Friends Heartlake satellietwagen (41056)" onerror="handleImgError(this)">
+          <img src="images/41056.jpg" alt="LEGO Friends Heartlake satellietwagen (41056)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/heartlake-satellietwagen-41056.html">Heartlake satellietwagen (41056)</a></h3>
@@ -519,7 +526,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41037">
-          <img src="images/41037.jpg" alt="LEGO Friends Stephanie's strandhuis (41037)" onerror="handleImgError(this)">
+          <img src="images/41037.jpg" alt="LEGO Friends Stephanie's strandhuis (41037)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/stephanies-strandhuis-41037.html">Stephanie's strandhuis (41037)</a></h3>
@@ -536,7 +543,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41005">
-          <img src="images/41005.jpg" alt="LEGO Friends Heartlake school (41005)" onerror="handleImgError(this)">
+          <img src="images/41005.jpg" alt="LEGO Friends Heartlake school (41005)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/heartlake-school-41005.html">Heartlake school (41005)</a></h3>
@@ -553,7 +560,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="3315">
-          <img src="images/3315.jpg" alt="LEGO Friends Olivia's huis (3315)" onerror="handleImgError(this)">
+          <img src="images/3315.jpg" alt="LEGO Friends Olivia's huis (3315)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/olivias-huis-3315.html">Olivia's huis (3315)</a></h3>
@@ -570,7 +577,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41015">
-          <img src="images/41015.jpg" alt="LEGO Friends Dolfijn cruiser (41015)" onerror="handleImgError(this)">
+          <img src="images/41015.jpg" alt="LEGO Friends Dolfijn cruiser (41015)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/dolfijn-cruiser-41015.html">Dolfijn cruiser (41015)</a></h3>
@@ -587,7 +594,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41038">
-          <img src="images/41038.jpg" alt="LEGO Friends Jungle reddingsbasis (41038)" onerror="handleImgError(this)">
+          <img src="images/41038.jpg" alt="LEGO Friends Jungle reddingsbasis (41038)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/jungle-reddingsbasis-41038.html">Jungle reddingsbasis (41038)</a></h3>
@@ -604,7 +611,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41105">
-          <img src="images/41105.jpg" alt="LEGO Friends Popster Podium (41105)" onerror="handleImgError(this)">
+          <img src="images/41105.jpg" alt="LEGO Friends Popster Podium (41105)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/popster-podium-41105.html">Popster Podium (41105)</a></h3>
@@ -621,7 +628,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41055">
-          <img src="images/41055.jpg" alt="LEGO Friends Assepoesters romantische kasteel (41055)" onerror="handleImgError(this)">
+          <img src="images/41055.jpg" alt="LEGO Friends Assepoesters romantische kasteel (41055)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/assepoesters-romantische-kasteel-41055.html">Assepoesters romantische kasteel (41055)</a></h3>
@@ -638,7 +645,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41093">
-          <img src="images/41093.jpg" alt="LEGO Friends Heartlake Kapsalon (41093)" onerror="handleImgError(this)">
+          <img src="images/41093.jpg" alt="LEGO Friends Heartlake Kapsalon (41093)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/heartlake-kapsalon-41093.html">Heartlake Kapsalon (41093)</a></h3>
@@ -655,7 +662,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41006">
-          <img src="images/41006.jpg" alt="LEGO Friends Bakkerij (41006)" onerror="handleImgError(this)">
+          <img src="images/41006.jpg" alt="LEGO Friends Bakkerij (41006)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/bakkerij-41006.html">Bakkerij (41006)</a></h3>
@@ -672,7 +679,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41026">
-          <img src="images/41026.jpg" alt="LEGO Friends Sunshine Oogst (41026)" onerror="handleImgError(this)">
+          <img src="images/41026.jpg" alt="LEGO Friends Sunshine Oogst (41026)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/sunshine-oogst-41026.html">Sunshine Oogst (41026)</a></h3>
@@ -689,7 +696,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41098">
-          <img src="images/41098.jpg" alt="LEGO Friends Emma's Toeristenkiosk (41098)" onerror="handleImgError(this)">
+          <img src="images/41098.jpg" alt="LEGO Friends Emma's Toeristenkiosk (41098)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/emmas-toeristenkiosk-41098.html">Emma's Toeristenkiosk (41098)</a></h3>
@@ -706,7 +713,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="3186">
-          <img src="images/3186.jpg" alt="LEGO Friends Emma's paardentrailer (3186)" onerror="handleImgError(this)">
+          <img src="images/3186.jpg" alt="LEGO Friends Emma's paardentrailer (3186)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/emmas-paardentrailer-3186.html">Emma's paardentrailer (3186)</a></h3>
@@ -723,7 +730,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41095">
-          <img src="images/41095.jpg" alt="LEGO Friends Emma's huis (41095)" onerror="handleImgError(this)">
+          <img src="images/41095.jpg" alt="LEGO Friends Emma's huis (41095)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/emmas-huis-41095.html">Emma's huis (41095)</a></h3>
@@ -740,7 +747,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41033">
-          <img src="images/41033.jpg" alt="LEGO Friends Junglewaterval reddingsactie (41033)" onerror="handleImgError(this)">
+          <img src="images/41033.jpg" alt="LEGO Friends Junglewaterval reddingsactie (41033)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/junglewaterval-reddingsactie-41033.html">Junglewaterval reddingsactie (41033)</a></h3>
@@ -757,7 +764,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41100">
-          <img src="images/41100.jpg" alt="LEGO Friends Heartlake Privéjet (41100)" onerror="handleImgError(this)">
+          <img src="images/41100.jpg" alt="LEGO Friends Heartlake Privéjet (41100)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/heartlake-priv-jet-41100.html">Heartlake Privéjet (41100)</a></h3>
@@ -774,7 +781,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41034">
-          <img src="images/41034.jpg" alt="LEGO Friends Zomercaravan (41034)" onerror="handleImgError(this)">
+          <img src="images/41034.jpg" alt="LEGO Friends Zomercaravan (41034)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/zomercaravan-41034.html">Zomercaravan (41034)</a></h3>
@@ -791,7 +798,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41002">
-          <img src="images/41002.jpg" alt="LEGO Friends Emma's Karate Class (41002)" onerror="handleImgError(this)">
+          <img src="images/41002.jpg" alt="LEGO Friends Emma's Karate Class (41002)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/emmas-karate-class-41002.html">Emma's Karate Class (41002)</a></h3>
@@ -808,7 +815,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41003">
-          <img src="images/41003.jpg" alt="LEGO Friends Olivia's veulentje (41003)" onerror="handleImgError(this)">
+          <img src="images/41003.jpg" alt="LEGO Friends Olivia's veulentje (41003)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/olivias-veulentje-41003.html">Olivia's veulentje (41003)</a></h3>
@@ -825,7 +832,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41009">
-          <img src="images/41009.jpg" alt="LEGO Friends Andrea's slaapkamer (41009)" onerror="handleImgError(this)">
+          <img src="images/41009.jpg" alt="LEGO Friends Andrea's slaapkamer (41009)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/andreas-slaapkamer-41009.html">Andrea's slaapkamer (41009)</a></h3>
@@ -842,7 +849,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41029">
-          <img src="images/41029.jpg" alt="LEGO Friends Stephanie's lammetje (41029)" onerror="handleImgError(this)">
+          <img src="images/41029.jpg" alt="LEGO Friends Stephanie's lammetje (41029)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/stephanies-lammetje-41029.html">Stephanie's lammetje (41029)</a></h3>
@@ -859,7 +866,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41010">
-          <img src="images/41010.jpg" alt="LEGO Friends Olivia's strandbuggy (41010)" onerror="handleImgError(this)">
+          <img src="images/41010.jpg" alt="LEGO Friends Olivia's strandbuggy (41010)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/olivias-strandbuggy-41010.html">Olivia's strandbuggy (41010)</a></h3>
@@ -876,7 +883,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41048">
-          <img src="images/41048.jpg" alt="LEGO Friends Leeuwenwelp savanne (41048)" onerror="handleImgError(this)">
+          <img src="images/41048.jpg" alt="LEGO Friends Leeuwenwelp savanne (41048)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/leeuwenwelp-savanne-41048.html">Leeuwenwelp savanne (41048)</a></h3>
@@ -893,7 +900,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41041">
-          <img src="images/41041.jpg" alt="LEGO Friends Het paradijsje van Schildpad (41041)" onerror="handleImgError(this)">
+          <img src="images/41041.jpg" alt="LEGO Friends Het paradijsje van Schildpad (41041)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/het-paradijsje-van-schildpad-41041.html">Het paradijsje van Schildpad (41041)</a></h3>
@@ -910,7 +917,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41042">
-          <img src="images/41042.jpg" alt="LEGO Friends De tempel van Tijger (41042)" onerror="handleImgError(this)">
+          <img src="images/41042.jpg" alt="LEGO Friends De tempel van Tijger (41042)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/de-tempel-van-tijger-41042.html">De tempel van Tijger (41042)</a></h3>
@@ -927,7 +934,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41031">
-          <img src="images/41031.jpg" alt="LEGO Friends Andrea's berghut (41031)" onerror="handleImgError(this)">
+          <img src="images/41031.jpg" alt="LEGO Friends Andrea's berghut (41031)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/andreas-berghut-41031.html">Andrea's berghut (41031)</a></h3>
@@ -944,7 +951,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41049">
-          <img src="images/41049.jpg" alt="LEGO Friends Panda bamboebos (41049)" onerror="handleImgError(this)">
+          <img src="images/41049.jpg" alt="LEGO Friends Panda bamboebos (41049)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/panda-bamboebos-41049.html">Panda bamboebos (41049)</a></h3>
@@ -961,7 +968,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Friends">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41103">
-          <img src="images/41103.jpg" alt="LEGO Friends Popster Opnamestudio (41103)" onerror="handleImgError(this)">
+          <img src="images/41103.jpg" alt="LEGO Friends Popster Opnamestudio (41103)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/popster-opnamestudio-41103.html">Popster Opnamestudio (41103)</a></h3>
@@ -978,7 +985,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Minecraft">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#4c8c2b 0%,#2e5c1a 100%)" data-fallback-text="21113">
-          <img src="images/21113.jpg" alt="LEGO Minecraft De Grot (21113)" onerror="handleImgError(this)">
+          <img src="images/21113.jpg" alt="LEGO Minecraft De Grot (21113)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/de-grot-21113.html">De Grot (21113)</a></h3>
@@ -995,7 +1002,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="40195">
-          <img src="images/40195.jpg" alt="LEGO Shell Shell Tankstation (40195)" onerror="handleImgError(this)">
+          <img src="images/40195.jpg" alt="LEGO Shell Shell Tankstation (40195)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/shell-tankstation-40195.html">Shell Tankstation (40195)</a></h3>
@@ -1012,7 +1019,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="40196">
-          <img src="images/40196.jpg" alt="LEGO Shell Shell Tankwagen (40196)" onerror="handleImgError(this)">
+          <img src="images/40196.jpg" alt="LEGO Shell Shell Tankwagen (40196)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/shell-tankwagen-40196.html">Shell Tankwagen (40196)</a></h3>
@@ -1029,7 +1036,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="40193">
-          <img src="images/40193.jpg" alt="LEGO Shell Ferrari 512 S (40193)" onerror="handleImgError(this)">
+          <img src="images/40193.jpg" alt="LEGO Shell Ferrari 512 S (40193)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-512-s-40193.html">Ferrari 512 S (40193)</a></h3>
@@ -1046,7 +1053,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="40191">
-          <img src="images/40191.jpg" alt="LEGO Shell Ferrari F12 Berlinetta (40191)" onerror="handleImgError(this)">
+          <img src="images/40191.jpg" alt="LEGO Shell Ferrari F12 Berlinetta (40191)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-f12-berlinetta-40191.html">Ferrari F12 Berlinetta (40191)</a></h3>
@@ -1063,7 +1070,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="30192">
-          <img src="images/30192.jpg" alt="LEGO Shell Ferrari F40 (30192)" onerror="handleImgError(this)">
+          <img src="images/30192.jpg" alt="LEGO Shell Ferrari F40 (30192)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-f40-30192.html">Ferrari F40 (30192)</a></h3>
@@ -1080,7 +1087,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="40190">
-          <img src="images/40190.jpg" alt="LEGO Shell Ferrari F138 (40190)" onerror="handleImgError(this)">
+          <img src="images/40190.jpg" alt="LEGO Shell Ferrari F138 (40190)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-f138-40190.html">Ferrari F138 (40190)</a></h3>
@@ -1097,7 +1104,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="30193">
-          <img src="images/30193.jpg" alt="LEGO Shell Ferrari 250 GT Berlinetta (30193)" onerror="handleImgError(this)">
+          <img src="images/30193.jpg" alt="LEGO Shell Ferrari 250 GT Berlinetta (30193)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-250-gt-berlinetta-30193.html">Ferrari 250 GT Berlinetta (30193)</a></h3>
@@ -1114,7 +1121,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="30194">
-          <img src="images/30194.jpg" alt="LEGO Shell Ferrari 458 Italia (30194)" onerror="handleImgError(this)">
+          <img src="images/30194.jpg" alt="LEGO Shell Ferrari 458 Italia (30194)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-458-italia-30194.html">Ferrari 458 Italia (30194)</a></h3>
@@ -1131,7 +1138,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="40194">
-          <img src="images/40194.jpg" alt="LEGO Shell Finish Line & Podium (40194)" onerror="handleImgError(this)">
+          <img src="images/40194.jpg" alt="LEGO Shell Finish Line & Podium (40194)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/finish-line-podium-40194.html">Finish Line & Podium (40194)</a></h3>
@@ -1148,7 +1155,7 @@ function handleImgError(img) {
       </article>
       <article class="card" data-theme="Shell">
         <div class="card-thumb card-thumb-photo" data-fallback-color="linear-gradient(135deg,#c8102e 0%,#f2b705 100%)" data-fallback-text="40192">
-          <img src="images/40192.jpg" alt="LEGO Shell Ferrari 250 GTO (40192)" onerror="handleImgError(this)">
+          <img src="images/40192.jpg" alt="LEGO Shell Ferrari 250 GTO (40192)" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="card-body">
           <h3><a href="reviews/ferrari-250-gto-40192.html">Ferrari 250 GTO (40192)</a></h3>
@@ -1163,6 +1170,8 @@ function handleImgError(img) {
           </div>
         </div>
       </article>
+
+
 
 
 

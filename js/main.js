@@ -8,15 +8,20 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   var filter = document.getElementById("theme-filter");
-  if (filter) {
-    var grid = document.getElementById("review-grid");
-    filter.addEventListener("change", function () {
-      var value = filter.value;
+  var search = document.getElementById("set-search");
+  var grid = document.getElementById("review-grid");
+  if (grid && (filter || search)) {
+    function applyFilters() {
+      var theme = filter ? filter.value : "alle";
+      var query = search ? search.value.trim().toLowerCase() : "";
       grid.querySelectorAll(".card").forEach(function (card) {
-        var match = value === "alle" || card.dataset.theme === value;
-        card.classList.toggle("is-hidden", !match);
+        var themeMatch = theme === "alle" || card.dataset.theme === theme;
+        var textMatch = !query || card.textContent.toLowerCase().indexOf(query) !== -1;
+        card.classList.toggle("is-hidden", !(themeMatch && textMatch));
       });
-    });
+    }
+    if (filter) filter.addEventListener("change", applyFilters);
+    if (search) search.addEventListener("input", applyFilters);
   }
 });
 
