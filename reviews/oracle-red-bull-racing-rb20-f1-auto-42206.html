@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Oracle Red Bull Racing RB20 F1 auto (42206)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#2b2b2b 0%,#f5a623 100%)" data-fallback-text="42206">
-      <img src="../images/42206.jpg" alt="LEGO Technic Oracle Red Bull Racing RB20 F1 auto (42206)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-42206')">Model</button>
+        <button onclick="showTab(this,'doos-42206')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-42206"><img src="../images/42206.jpg" alt="LEGO Technic Oracle Red Bull Racing RB20 F1 auto (42206)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-42206"><img src="../images/42206-Doos.png" alt="Doos LEGO Technic Oracle Red Bull Racing RB20 F1 auto (42206)"></div>
     </div>
     <h1>LEGO Technic Oracle Red Bull Racing RB20 F1 auto (42206)</h1>
     <div class="review-meta">

@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Klassieke animatiescènes (40774)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#7b2ff7 0%,#f7b2d9 100%)" data-fallback-text="40774">
-      <img src="../images/40774.jpg" alt="LEGO Disney Klassieke animatiescènes (40774)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-40774')">Model</button>
+        <button onclick="showTab(this,'doos-40774')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-40774"><img src="../images/40774.jpg" alt="LEGO Disney Klassieke animatiescènes (40774)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-40774"><img src="../images/40774-Doos.png" alt="Doos LEGO Disney Klassieke animatiescènes (40774)"></div>
     </div>
     <h1>LEGO Disney Klassieke animatiescènes (40774)</h1>
     <div class="review-meta">

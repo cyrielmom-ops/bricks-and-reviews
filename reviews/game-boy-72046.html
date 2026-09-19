@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Game Boy (72046)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#e52521 0%,#049cd8 100%)" data-fallback-text="72046">
-      <img src="../images/72046.jpg" alt="LEGO Super Mario Game Boy (72046)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-72046')">Model</button>
+        <button onclick="showTab(this,'doos-72046')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-72046"><img src="../images/72046.jpg" alt="LEGO Super Mario Game Boy (72046)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-72046"><img src="../images/72046-Doos.png" alt="Doos LEGO Super Mario Game Boy (72046)"></div>
     </div>
     <h1>LEGO Super Mario Game Boy (72046)</h1>
     <div class="review-meta">

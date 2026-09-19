@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Ferrari 499P (77261)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#1a1a1a 0%,#e10600 100%)" data-fallback-text="77261">
-      <img src="../images/77261.jpg" alt="LEGO Speed Champions Ferrari 499P (77261)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-77261')">Model</button>
+        <button onclick="showTab(this,'doos-77261')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-77261"><img src="../images/77261.jpg" alt="LEGO Speed Champions Ferrari 499P (77261)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-77261"><img src="../images/77261-Doos.png" alt="Doos LEGO Speed Champions Ferrari 499P (77261)"></div>
     </div>
     <h1>LEGO Speed Champions Ferrari 499P (77261)</h1>
     <div class="review-meta">

@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Heartlake school (41005)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41005">
-      <img src="../images/41005.jpg" alt="LEGO Friends Heartlake school (41005)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-41005')">Model</button>
+        <button onclick="showTab(this,'doos-41005')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-41005"><img src="../images/41005.jpg" alt="LEGO Friends Heartlake school (41005)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-41005"><img src="../images/41005-Doos.jpg" alt="Doos LEGO Friends Heartlake school (41005)"></div>
     </div>
     <h1>LEGO Friends Heartlake school (41005)</h1>
     <div class="review-meta">

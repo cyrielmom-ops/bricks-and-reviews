@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Popster Podium (41105)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41105">
-      <img src="../images/41105.jpg" alt="LEGO Friends Popster Podium (41105)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-41105')">Model</button>
+        <button onclick="showTab(this,'doos-41105')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-41105"><img src="../images/41105.jpg" alt="LEGO Friends Popster Podium (41105)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-41105"><img src="../images/41105-Doos.jpg" alt="Doos LEGO Friends Popster Podium (41105)"></div>
     </div>
     <h1>LEGO Friends Popster Podium (41105)</h1>
     <div class="review-meta">

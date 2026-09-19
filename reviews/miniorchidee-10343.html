@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Miniorchidee (10343)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10343">
-      <img src="../images/10343.jpg" alt="LEGO Botanicals Miniorchidee (10343)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-10343')">Model</button>
+        <button onclick="showTab(this,'doos-10343')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-10343"><img src="../images/10343.jpg" alt="LEGO Botanicals Miniorchidee (10343)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-10343"><img src="../images/10343-Doos.png" alt="Doos LEGO Botanicals Miniorchidee (10343)"></div>
     </div>
     <h1>LEGO Botanicals Miniorchidee (10343)</h1>
     <div class="review-meta">

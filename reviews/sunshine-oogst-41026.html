@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Sunshine Oogst (41026)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41026">
-      <img src="../images/41026.jpg" alt="LEGO Friends Sunshine Oogst (41026)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-41026')">Model</button>
+        <button onclick="showTab(this,'doos-41026')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-41026"><img src="../images/41026.jpg" alt="LEGO Friends Sunshine Oogst (41026)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-41026"><img src="../images/41026-Doos.jpg" alt="Doos LEGO Friends Sunshine Oogst (41026)"></div>
     </div>
     <h1>LEGO Friends Sunshine Oogst (41026)</h1>
     <div class="review-meta">

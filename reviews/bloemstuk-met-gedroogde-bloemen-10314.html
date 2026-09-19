@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Bloemstuk met gedroogde bloemen (10314)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10314">
-      <img src="../images/10314.jpg" alt="LEGO Botanicals Bloemstuk met gedroogde bloemen (10314)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-10314')">Model</button>
+        <button onclick="showTab(this,'doos-10314')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-10314"><img src="../images/10314.jpg" alt="LEGO Botanicals Bloemstuk met gedroogde bloemen (10314)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-10314"><img src="../images/10314-Doos.png" alt="Doos LEGO Botanicals Bloemstuk met gedroogde bloemen (10314)"></div>
     </div>
     <h1>LEGO Botanicals Bloemstuk met gedroogde bloemen (10314)</h1>
     <div class="review-meta">

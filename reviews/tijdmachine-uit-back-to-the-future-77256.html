@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Tijdmachine uit Back to the Future (77256)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#1a1a1a 0%,#e10600 100%)" data-fallback-text="77256">
-      <img src="../images/77256.jpg" alt="LEGO Speed Champions Tijdmachine uit Back to the Future (77256)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-77256')">Model</button>
+        <button onclick="showTab(this,'doos-77256')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-77256"><img src="../images/77256.jpg" alt="LEGO Speed Champions Tijdmachine uit Back to the Future (77256)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-77256"><img src="../images/77256-Doos.png" alt="Doos LEGO Speed Champions Tijdmachine uit Back to the Future (77256)"></div>
     </div>
     <h1>LEGO Speed Champions Tijdmachine uit Back to the Future (77256)</h1>
     <div class="review-meta">

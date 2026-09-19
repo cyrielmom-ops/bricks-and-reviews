@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Emma's huis (41095)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41095">
-      <img src="../images/41095.jpg" alt="LEGO Friends Emma's huis (41095)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-41095')">Model</button>
+        <button onclick="showTab(this,'doos-41095')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-41095"><img src="../images/41095.jpg" alt="LEGO Friends Emma's huis (41095)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-41095"><img src="../images/41095-Doos.jpg" alt="Doos LEGO Friends Emma's huis (41095)"></div>
     </div>
     <h1>LEGO Friends Emma's huis (41095)</h1>
     <div class="review-meta">

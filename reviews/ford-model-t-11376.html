@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Ford Model T (11376)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#8b0000 0%,#c98a3d 100%)" data-fallback-text="11376">
-      <img src="../images/11376.jpg" alt="LEGO Icons Ford Model T (11376)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-11376')">Model</button>
+        <button onclick="showTab(this,'doos-11376')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-11376"><img src="../images/11376.jpg" alt="LEGO Icons Ford Model T (11376)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-11376"><img src="../images/11376-Doos.png" alt="Doos LEGO Icons Ford Model T (11376)"></div>
     </div>
     <h1>LEGO Icons Ford Model T (11376)</h1>
     <div class="review-meta">

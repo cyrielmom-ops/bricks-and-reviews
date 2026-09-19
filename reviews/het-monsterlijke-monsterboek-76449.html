@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Het Monsterlijke Monsterboek (76449)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#740001 0%,#d3a625 100%)" data-fallback-text="76449">
-      <img src="../images/76449.jpg" alt="LEGO Harry Potter Het Monsterlijke Monsterboek (76449)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-76449')">Model</button>
+        <button onclick="showTab(this,'doos-76449')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-76449"><img src="../images/76449.jpg" alt="LEGO Harry Potter Het Monsterlijke Monsterboek (76449)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-76449"><img src="../images/76449-Doos.png" alt="Doos LEGO Harry Potter Het Monsterlijke Monsterboek (76449)"></div>
     </div>
     <h1>LEGO Harry Potter Het Monsterlijke Monsterboek (76449)</h1>
     <div class="review-meta">

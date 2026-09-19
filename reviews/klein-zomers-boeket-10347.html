@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Klein zomers boeket (10347)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#3a7d44 0%,#8bc34a 100%)" data-fallback-text="10347">
-      <img src="../images/10347.jpg" alt="LEGO Botanicals Klein zomers boeket (10347)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'model-10347')">Model</button>
+        <button onclick="showTab(this,'doos-10347')">Doos</button>
+      </div>
+      <div class="tab-panel active" id="model-10347"><img src="../images/10347.jpg" alt="LEGO Botanicals Klein zomers boeket (10347)" onerror="handleImgError(this)"></div>
+      <div class="tab-panel" id="doos-10347"><img src="../images/10347-Doos.png" alt="Doos LEGO Botanicals Klein zomers boeket (10347)"></div>
     </div>
     <h1>LEGO Botanicals Klein zomers boeket (10347)</h1>
     <div class="review-meta">
