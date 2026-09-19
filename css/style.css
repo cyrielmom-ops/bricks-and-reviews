@@ -126,6 +126,7 @@ img { max-width: 100%; display: block; }
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   margin: 0 0 12px;
   letter-spacing: -0.02em;
+  line-height: 1.15;
 }
 
 .hero p {
@@ -133,6 +134,11 @@ img { max-width: 100%; display: block; }
   max-width: 640px;
   color: rgba(255,255,255,0.92);
   margin: 0 0 22px;
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.6rem; }
+  .hero p { font-size: 1rem; }
 }
 
 .btn {
