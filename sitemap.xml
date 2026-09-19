@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO: vervang https://jouwdomein.nl door je echte domein zodra je live staat -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://jouwdomein.nl/index.html</loc></url>
-  <url><loc>https://jouwdomein.nl/reviews/index.html</loc></url>
-  <url><loc>https://jouwdomein.nl/reviews/millennium-falcon-75192.html</loc></url>
-  <url><loc>https://jouwdomein.nl/reviews/titanic-10294.html</loc></url>
-  <url><loc>https://jouwdomein.nl/reviews/saturn-v-92176.html</loc></url>
-  <url><loc>https://jouwdomein.nl/about.html</loc></url>
-  <url><loc>https://jouwdomein.nl/disclaimer.html</loc></url>
+  <url><loc>https://cyrielmom-ops.github.io/bricks-and-reviews/index.html</loc></url>
+  <url><loc>https://cyrielmom-ops.github.io/bricks-and-reviews/reviews/index.html</loc></url>
+  <url><loc>https://cyrielmom-ops.github.io/bricks-and-reviews/reviews/oracle-red-bull-racing-rb20-f1-car-42206.html</loc></url>
+  <url><loc>https://cyrielmom-ops.github.io/bricks-and-reviews/about.html</loc></url>
+  <url><loc>https://cyrielmom-ops.github.io/bricks-and-reviews/disclaimer.html</loc></url>
 </urlset>
