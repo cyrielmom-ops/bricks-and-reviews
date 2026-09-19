@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Ferrari 488 Pista auto (42235)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#2b2b2b 0%,#f5a623 100%)" data-fallback-text="42235">
-      <img src="../images/42235.jpg" alt="LEGO Technic Ferrari 488 Pista auto (42235)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'doos-42235')">Doos</button>
+        <button onclick="showTab(this,'model-42235')">Model</button>
+      </div>
+      <div class="tab-panel active" id="doos-42235"><img src="../images/42235-Doos.png" alt="Doos LEGO Technic Ferrari 488 Pista auto (42235)"></div>
+      <div class="tab-panel" id="model-42235"><img src="../images/42235.jpg" alt="LEGO Technic Ferrari 488 Pista auto (42235)" onerror="handleImgError(this)"></div>
     </div>
     <h1>LEGO Technic Ferrari 488 Pista auto (42235)</h1>
     <div class="review-meta">

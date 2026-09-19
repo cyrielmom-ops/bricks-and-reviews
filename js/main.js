@@ -20,3 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+function showTab(btn, id) {
+  var wrap = btn.closest(".thumb-tabs");
+  wrap.querySelectorAll(".tab-buttons button").forEach(function (b) { b.classList.remove("active"); });
+  wrap.querySelectorAll(".tab-panel").forEach(function (p) { p.classList.remove("active"); });
+  btn.classList.add("active");
+  wrap.querySelector("#" + id).classList.add("active");
+}
+

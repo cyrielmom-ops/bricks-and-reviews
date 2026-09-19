@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; Stephanie's lammetje (41029)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#ff6fa5 0%,#7b2ff7 100%)" data-fallback-text="41029">
-      <img src="../images/41029.jpg" alt="LEGO Friends Stephanie's lammetje (41029)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'doos-41029')">Doos</button>
+        <button onclick="showTab(this,'model-41029')">Model</button>
+      </div>
+      <div class="tab-panel active" id="doos-41029"><img src="../images/41029-Doos.jpg" alt="Doos LEGO Friends Stephanie's lammetje (41029)"></div>
+      <div class="tab-panel" id="model-41029"><img src="../images/41029.jpg" alt="LEGO Friends Stephanie's lammetje (41029)" onerror="handleImgError(this)"></div>
     </div>
     <h1>LEGO Friends Stephanie's lammetje (41029)</h1>
     <div class="review-meta">

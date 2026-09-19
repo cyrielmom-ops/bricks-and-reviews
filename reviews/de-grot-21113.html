@@ -40,8 +40,13 @@ function handleImgError(img) {
 <section class="review-hero">
   <div class="wrap">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; De Grot (21113)</div>
-    <div class="review-thumb-large review-thumb-photo" data-fallback-color="linear-gradient(135deg,#4c8c2b 0%,#2e5c1a 100%)" data-fallback-text="21113">
-      <img src="../images/21113.jpg" alt="LEGO Minecraft De Grot (21113)" onerror="handleImgError(this)">
+    <div class="thumb-tabs">
+      <div class="tab-buttons">
+        <button class="active" onclick="showTab(this,'doos-21113')">Doos</button>
+        <button onclick="showTab(this,'model-21113')">Model</button>
+      </div>
+      <div class="tab-panel active" id="doos-21113"><img src="../images/21113-Doos.jpg" alt="Doos LEGO Minecraft De Grot (21113)"></div>
+      <div class="tab-panel" id="model-21113"><img src="../images/21113.jpg" alt="LEGO Minecraft De Grot (21113)" onerror="handleImgError(this)"></div>
     </div>
     <h1>LEGO Minecraft De Grot (21113)</h1>
     <div class="review-meta">
